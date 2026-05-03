@@ -88,7 +88,9 @@ async function login() {
     await refreshAll();
     showToast("Logged in successfully.");
   } catch (err) {
-    loginMessage.textContent = "Backend not reachable. Start Spring Boot first.";
+    //loginMessage.textContent = "Backend not reachable. Start Spring Boot first.";
+    console.error(err);
+      loginMessage.textContent = "Server is waking up, please try again...";
   }
 }
 
