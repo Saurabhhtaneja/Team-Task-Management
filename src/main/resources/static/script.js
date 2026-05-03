@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "";
 const TOKEN_KEY = "ttm_token";
 const USER_KEY = "ttm_user";
 
